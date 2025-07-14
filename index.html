@@ -14,6 +14,11 @@
     />
 
     <title>Panda | E-commerce</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -29,7 +34,18 @@
         </div>
         <ul class="nav-items">
           <li><a href="#home">Home</a></li>
-          <li><a href="#categories">Product</a></li>
+          <li class="product-li">
+            <a href="#categories"
+              >Product <i class="fa-solid fa-angle-down"></i
+            ></a>
+            <ul class="dropdown-nav-items">
+              <li>product 1</li>
+              <li>product 2</li>
+              <li>product 3</li>
+              <li>product 4</li>
+              <li>product 5</li>
+            </ul>
+          </li>
           <li><a href="#shoes">About Us</a></li>
           <li><a href="#contact">Contact US</a></li>
         </ul>
