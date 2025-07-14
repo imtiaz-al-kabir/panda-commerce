@@ -18,13 +18,16 @@
   </head>
   <body>
     <header>
-      <nav>
-        <img src="./assets/images/logo.png" alt="logo" />
-        <div>
+      <nav class="container">
+        <figure>
+          <img src="./assets/images/logo.png" alt="logo" />
+        </figure>
+
+        <div class="search-parent">
           <input type="text" placeholder="Search" />
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <ul>
+        <ul class="nav-items">
           <li><a href="#home">Home</a></li>
           <li><a href="#product">Product</a></li>
           <li><a href="#about">About Us</a></li>
@@ -32,5 +35,24 @@
         </ul>
       </nav>
     </header>
+
+    <!-- banner -->
+    <section class="banner container">
+      <div class="banner-left">
+        <h1>Mi LED TV 4A PRO 32</h1>
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <span class="banner-price">$1289</span>
+        <button class="btn">
+          Buy Now <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="banner-right">
+        <img src="./assets/images/banner-images/tv.png" alt="" />
+      </div>
+    </section>
   </body>
 </html>
