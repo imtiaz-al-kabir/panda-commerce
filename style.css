@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 /* font-family: "Inter", sans-serif; */
@@ -31,8 +33,18 @@
   font-size: 36px;
   font-weight: 600;
   color: #1f1f1f;
+  margin-bottom: 30px;
 }
-
+.shoes-backpack-common-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.shoes-backpack-common-parent p {
+  color: #ff9d00;
+  font-size: 20px;
+  font-weight: 500;
+  /* padding-bottom: 20px; */
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -113,9 +125,9 @@ nav {
 }
 /* category section */
 
-/* .categories {
-  margin: 64px 0;
-} */
+.categories {
+  margin: 64px auto;
+}
 
 .categories-card-container {
   display: flex;
@@ -162,3 +174,35 @@ nav {
   width: 69px;
   height: 90px;
 } */
+
+/* shoes and backpack section   */
+.shoes-backpack-parent {
+  background-color: #f4f4f4;
+}
+.shoes-section {
+  padding: 50px 0;
+}
+.shoes-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.shoes-card {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+}
+.shoes-card img {
+  width: 336px;
+  height: 202px;
+}
+.shoes-card .btn {
+  background: black;
+}
+.card-price {
+  display: block;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
