@@ -55,7 +55,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 50px 0;
 }
 .search-parent {
   position: relative;
@@ -205,4 +205,30 @@ nav {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 12px;
+}
+
+/* contact us  */
+
+.contact {
+  background-color: #fff2f1;
+  text-align: center;
+  padding: 35px 20px;
+  margin: 35px auto;
+  border-radius: 15px;
+  /* margin: 71px 117px 75px 111px; */
+}
+.contact p {
+  padding: 20px 0;
+}
+.contact-parent-btn {
+  display: flex;
+  justify-content: center;
+}
+.contact-parent-btn input {
+  border: none;
+  padding: 15px 152px;
+}
+.contact-parent-btn .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
